@@ -1,0 +1,37 @@
+# base ----------------------------------------
+matplotlib==3.5.1
+numpy==1.22.1
+opencv-python==4.5.5.62
+Pillow==9.0.0
+PyYAML==6.0
+scipy==1.7.3
+torch==1.10.1
+torchvision==0.11.2
+tqdm==4.62.3
+
+# logging -------------------------------------
+tensorboard==2.8.0
+# wandb
+
+# plotting ------------------------------------
+seaborn==0.11.2
+pandas==1.3.5
+
+# export --------------------------------------
+# coremltools>=4.1
+# onnx>=1.9.0
+# scikit-learn==0.19.2  # for coreml quantization
+
+# extras --------------------------------------
+thop  # FLOPS computation
+Cython  # for pycocotools https://github.com/cocodataset/cocoapi/issues/172
+pycocotools>=2.0  # COCO mAP
+h5py
+tb-nightly
+future
+yacs
+gdown
+flake8
+yapf
+isort==4.3.21
+imageio
